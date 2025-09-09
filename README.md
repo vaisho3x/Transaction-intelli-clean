@@ -19,10 +19,13 @@ You give it the messy description, and it uses a machine learning model to insta
 The Category: e.g., "Travel", "Shopping", "Food & Dining"
 The Merchant: e.g., "Uber", "Amazon"
 
+
 This turns confusing financial data into human-readable information, demonstrating a clear path to improving the customer experience for any digital payment service.
 
 <br>
-
+<div align="center">
+<img src="C:\Users\vvais\Pictures\Screenshots\Screenshot 2025-09-09 193901.png" alt="App Screenshot" width="700"/>
+</div>
 <br>
 
 <div>
@@ -32,6 +35,7 @@ The application uses a two-step process to clean the data:
 
 1.NLP for Categorization: A Naive Bayes classification model, trained on transaction data, predicts the most likely category. The text is converted into numerical vectors using a TfidfVectorizer which emphasizes unique, predictive keywords.
 2.Logic for Merchant Extraction: A simple but effective keyword-matching logic scans the description to identify and extract the clean merchant name.
+
 
 
 
