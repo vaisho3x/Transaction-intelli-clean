@@ -4,7 +4,6 @@ Transaction Intelli-Clean
 </div>
 <div>
 A smart web application that uses Natural Language Processing (NLP) to instantly clean up and categorize cryptic credit card transaction descriptions.
-
 </div>
 <br>
 <br>
@@ -31,9 +30,9 @@ How It Works
 </div>
 The application uses a two-step process to clean the data:
 
-NLP for Categorization: A Naive Bayes classification model, trained on transaction data, predicts the most likely category. The text is converted into numerical vectors using a TfidfVectorizer which emphasizes unique, predictive keywords.
+1.NLP for Categorization: A Naive Bayes classification model, trained on transaction data, predicts the most likely category. The text is converted into numerical vectors using a TfidfVectorizer which emphasizes unique, predictive keywords.
+2.Logic for Merchant Extraction: A simple but effective keyword-matching logic scans the description to identify and extract the clean merchant name.
 
-Logic for Merchant Extraction: A simple but effective keyword-matching logic scans the description to identify and extract the clean merchant name.
 
 
 
