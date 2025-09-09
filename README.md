@@ -1,6 +1,8 @@
 <div align="center">
 
 Transaction Intelli-Clean
+</div>
+<div>
 A smart web application that uses Natural Language Processing (NLP) to instantly clean up and categorize cryptic credit card transaction descriptions.
 
 </div>
@@ -17,15 +19,14 @@ The Merchant: e.g., "Uber", "Amazon"
 This turns confusing financial data into human-readable information, demonstrating a clear path to improving the customer experience for any digital payment service.
 
 <br>
-<div align="center">
-<img src="https://www.google.com/search?q=https://i.imgur.com/8a3gYq1.png" alt="App Screenshot" width="700"/>
-</div>
+
 <br>
 
-🛠️ How It Works
+How It Works
 The application uses a two-step process to clean the data:
 
 NLP for Categorization: A Naive Bayes classification model, trained on transaction data, predicts the most likely category. The text is converted into numerical vectors using a TfidfVectorizer which emphasizes unique, predictive keywords.
 
 Logic for Merchant Extraction: A simple but effective keyword-matching logic scans the description to identify and extract the clean merchant name.
+
 
